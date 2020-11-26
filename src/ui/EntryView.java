@@ -2,46 +2,45 @@ package ui;
 
 import config.Config;
 import data.Entry;
-import de.ur.mi.oop.colors.Color;
-import de.ur.mi.oop.events.*;
 import de.ur.mi.oop.graphics.Compound;
 import de.ur.mi.oop.graphics.Image;
 import de.ur.mi.oop.graphics.Label;
 import de.ur.mi.oop.graphics.Rectangle;
 
 public class EntryView implements Config {
-    private Entry entry;
+
     private Compound view;
-    private Image image;
+    private float labelXPos;
+    private float nameLabelYPos;
+    private float numberLabelYPos;
 
     EntryView(float x, float y, float width, float height, Entry entry) {
         view = new Compound(x, y);
         view.setWidth(width);
         view.setHeight(height);
-        this.entry = entry;
 
         Rectangle entryBackground = new Rectangle(x, y, (int) width, PHONEBOOK_ENTRY_HEIGHT, PHONEBOOK_ENTRY_BACKGROUND_COLOR);
         entryBackground.setBorderWeight(0);
         view.add(entryBackground);
 
-        image = new Image(x, y, entry.getImagePath());
+        Image image = new Image(x, y, entry.getImagePath());
         image.setWidth(height);
         image.setHeight(height);
         view.add(image);
 
-        Label nameLabel = new Label(image.getXPos() + image.getWidth() + PHONEBOOK_ENTRY_MARGIN + (PHONEBOOK_ENTRY_HEIGHT /5), view.getYPos() + (PHONEBOOK_ENTRY_HEIGHT /3), entry.getName());
-        nameLabel.setColor(new Color(0, 0, 0, 0));
+        labelXPos = image.getXPos() + image.getWidth() + PHONEBOOK_ENTRY_MARGIN + (PHONEBOOK_ENTRY_HEIGHT /5);
+        nameLabelYPos = view.getYPos() + (PHONEBOOK_ENTRY_HEIGHT /3);
+        numberLabelYPos = (float) (view.getYPos() + (PHONEBOOK_ENTRY_HEIGHT / 1.4));
+
+        Label nameLabel = new Label(labelXPos,nameLabelYPos, entry.getName());
+        nameLabel.setColor(APP_RESET_COLOR);
         nameLabel.setFontSize(PHONEBOOK_ENTRY_HEIGHT /4);
         view.add(nameLabel);
 
-        Label numberLabel = new Label(image.getXPos() + image.getWidth() + PHONEBOOK_ENTRY_MARGIN + (PHONEBOOK_ENTRY_HEIGHT /5), (float) (view.getYPos() + (PHONEBOOK_ENTRY_HEIGHT / 1.4)), entry.getFullNumber());
-        numberLabel.setColor(new Color(0, 0, 0, 0));
+        Label numberLabel = new Label(labelXPos, numberLabelYPos, entry.getFullNumber());
+        numberLabel.setColor(APP_RESET_COLOR);
         numberLabel.setFontSize(PHONEBOOK_ENTRY_HEIGHT /5);
         view.add(numberLabel);
-    }
-
-    public Entry getEntry() {
-        return this.entry;
     }
 
     public Compound getView() {
@@ -49,12 +48,12 @@ public class EntryView implements Config {
     }
 
     public void resetAppearance() {
-        view.getObjectAt(image.getXPos() + image.getWidth() + PHONEBOOK_ENTRY_MARGIN + (PHONEBOOK_ENTRY_HEIGHT /5), view.getYPos() + (PHONEBOOK_ENTRY_HEIGHT /3)).setColor(new Color(0, 0, 0, 0));
-        view.getObjectAt(image.getXPos() + image.getWidth() + PHONEBOOK_ENTRY_MARGIN + (PHONEBOOK_ENTRY_HEIGHT /5), (float) (view.getYPos() + (PHONEBOOK_ENTRY_HEIGHT / 1.4))).setColor(new Color(0, 0, 0, 0));
+        view.getObjectAt(labelXPos, nameLabelYPos).setColor(APP_RESET_COLOR);
+        view.getObjectAt(labelXPos, numberLabelYPos).setColor(APP_RESET_COLOR);
     }
 
     public void changeAppearance() {
-        view.getObjectAt(image.getXPos() + image.getWidth() + PHONEBOOK_ENTRY_MARGIN + (PHONEBOOK_ENTRY_HEIGHT /5), view.getYPos() + (PHONEBOOK_ENTRY_HEIGHT /3)).setColor(PHONEBOOK_FONT_COLOR);
-        view.getObjectAt(image.getXPos() + image.getWidth() + PHONEBOOK_ENTRY_MARGIN + (PHONEBOOK_ENTRY_HEIGHT /5), (float) (view.getYPos() + (PHONEBOOK_ENTRY_HEIGHT / 1.4))).setColor(PHONEBOOK_FONT_COLOR);
+        view.getObjectAt(labelXPos, nameLabelYPos).setColor(PHONEBOOK_FONT_COLOR);
+        view.getObjectAt(labelXPos, numberLabelYPos).setColor(PHONEBOOK_FONT_COLOR);
     }
 }

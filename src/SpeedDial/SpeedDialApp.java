@@ -35,7 +35,7 @@ public class SpeedDialApp extends GraphicsApp implements GraphicsAppMouseListene
     }
 
     private void initComponents() {
-        phoneBookView = new PhoneBookView(0, INPUT_VIEW_HEIGHT, APP_WIDTH, phoneBook);
+        phoneBookView = new PhoneBookView(0, PHONEBOOK_ENTRY_MARGIN, APP_WIDTH, phoneBook);
     }
 
     @Override
@@ -45,20 +45,8 @@ public class SpeedDialApp extends GraphicsApp implements GraphicsAppMouseListene
     }
 
     @Override
-    public void onMouseMoved(MouseMovedEvent event) {
-    }
-
-    @Override
     public void onMousePressed(MousePressedEvent event) {
         phoneBookView.onClick(event.getXPos(), event.getYPos());
-    }
-
-    @Override
-    public void onMouseReleased(MouseReleasedEvent event) {
-    }
-
-    @Override
-    public void onMouseDragged(MouseDraggedEvent event) {
     }
 
     public static void main(String[] args) {

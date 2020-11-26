@@ -17,12 +17,9 @@ public class PhoneBook {
         book = new HashMap<String, Entry>();
     }
 
-    public Entry getEntry(String name) {
-        return book.get(name);
-    }
-
     public void addEntry(String name, String areaCode, String number, String imagePath) {
-        book.put(name, new Entry(name, areaCode, number, imagePath));
+        Entry newEntry = new Entry(name, areaCode, number, imagePath);
+        book.put(name, newEntry);
     }
 
     public ArrayList<Entry> getEntries() {
@@ -30,22 +27,6 @@ public class PhoneBook {
 
         for (String name : book.keySet()) {
             entries.add(book.get(name));
-        }
-
-        return entries;
-    }
-
-    public ArrayList<Entry> getEntries(String nameFilter) {
-        if(nameFilter.isEmpty()) {
-            return getEntries();
-        }
-
-        ArrayList<Entry> entries = new ArrayList<Entry>();
-
-        for (String name : book.keySet()) {
-            if (name.contains(nameFilter)) {
-                entries.add(book.get(name));
-            }
         }
 
         return entries;
@@ -69,11 +50,9 @@ public class PhoneBook {
 
         while(in.hasNext()) {
             String currentLine = in.nextLine();
-
             if(currentLine.equals("name,areaCode,number,imagepath")) {
                 continue;
             }
-
             lines.add(currentLine);
         }
 

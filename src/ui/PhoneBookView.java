@@ -8,18 +8,16 @@ import java.util.ArrayList;
 
 public class PhoneBookView implements Config {
 
-    private PhoneBook book;
     private ArrayList<EntryView> currentEntries;
     private int xPos;
     private int yPos;
     private int width;
 
     public PhoneBookView(int x, int y, int width, PhoneBook book) {
-        this.xPos = x;
-        this.yPos = y;
+        xPos = x;
+        yPos = y;
         this.width = width;
-        this.book = book;
-        this.currentEntries = new ArrayList<EntryView>();
+        currentEntries = new ArrayList<EntryView>();
 
         ArrayList<Entry> entries = book.getEntries();
 
@@ -38,11 +36,12 @@ public class PhoneBookView implements Config {
         float x = xPos;
         float y = yPos + PHONEBOOK_ENTRY_MARGIN + ((PHONEBOOK_ENTRY_HEIGHT + PHONEBOOK_ENTRY_MARGIN) * position);
 
-        this.currentEntries.add(new EntryView(x, y, width, PHONEBOOK_ENTRY_HEIGHT, entry));
+        EntryView newEntryView = new EntryView(x, y, width, PHONEBOOK_ENTRY_HEIGHT, entry);
+        currentEntries.add(newEntryView);
     }
 
     public void onClick(int x, int y) {
-        for(EntryView entryView: this.currentEntries) {
+        for(EntryView entryView: currentEntries) {
             if(entryView.getView().hitTest(x, y)) {
                 entryView.changeAppearance();
             } else {
