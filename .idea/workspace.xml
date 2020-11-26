@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18faea0a-61da-45b7-bfac-ae08dbfda7df" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kmRI8tYx9tDUHVBZBwUwf2SKUk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/assets" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/assets" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SpeedDialApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SpeedDial.SpeedDialApp" />
+      <module name="U09-GraphicsApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpeedDialApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="WindowStateProjectService">
+    <state x="2362" y="203" width="1034" height="846" key="#Project_Structure" timestamp="1606378142490">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2362" y="203" width="1034" height="846" key="#Project_Structure/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606378142490" />
+    <state x="2337" y="284" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606306193099">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2337" y="284" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606306193099" />
+    <state x="2687" y="332" width="384" height="588" key="#com.intellij.ide.util.MemberChooser" timestamp="1606308613424">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2687" y="332" width="384" height="588" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606308613424" />
+    <state x="2612" y="374" width="534" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606310167478">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2612" y="374" width="534" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606310167478" />
+    <state x="2513" y="368" width="729" height="515" key="FileChooserDialogImpl" timestamp="1606378139638">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2513" y="368" width="729" height="515" key="FileChooserDialogImpl/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606378139638" />
+    <state width="1872" height="300" key="GridCell.Tab.0.bottom" timestamp="1606388710638">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1872" height="300" key="GridCell.Tab.0.bottom/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606388710638" />
+    <state width="1872" height="300" key="GridCell.Tab.0.center" timestamp="1606388710638">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1872" height="300" key="GridCell.Tab.0.center/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606388710638" />
+    <state width="1872" height="300" key="GridCell.Tab.0.left" timestamp="1606388710638">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1872" height="300" key="GridCell.Tab.0.left/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606388710638" />
+    <state width="1872" height="300" key="GridCell.Tab.0.right" timestamp="1606388710638">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1872" height="300" key="GridCell.Tab.0.right/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606388710638" />
+    <state width="1872" height="382" key="GridCell.Tab.1.bottom" timestamp="1606381932029">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1872" height="382" key="GridCell.Tab.1.bottom/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606381932029" />
+    <state width="1872" height="382" key="GridCell.Tab.1.center" timestamp="1606381932029">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1872" height="382" key="GridCell.Tab.1.center/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606381932029" />
+    <state width="1872" height="382" key="GridCell.Tab.1.left" timestamp="1606381932029">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1872" height="382" key="GridCell.Tab.1.left/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606381932029" />
+    <state width="1872" height="382" key="GridCell.Tab.1.right" timestamp="1606381932029">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1872" height="382" key="GridCell.Tab.1.right/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606381932029" />
+  </component>
+</project>
