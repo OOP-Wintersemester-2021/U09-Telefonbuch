@@ -1,5 +1,5 @@
 ---
-title: Template
+title: Übungsblatt 09
 author: Zuletzt bearbeitet von Alexander Bazo
 documentclass: scrartcl
 classoption:
@@ -12,12 +12,12 @@ header-includes: |
     \pagestyle{fancy}
     \fancyhf{}
     \rhead{OOP WS 2020/21}
-    \lhead{U00 | Template}
+    \lhead{U09 | Übungsblatt 09}
     \cfoot{\includegraphics[height=2cm]{docs/footer.png}}
     \fancypagestyle{plain}{
       \fancyhf{}
       \rhead{OOP WS 2020/21}
-      \lhead{U00 | Template}
+      \lhead{U09 | Übungsblatt 09}
       \cfoot[C]{\includegraphics[height=2cm]{docs/footer.png}}}
 ---
 
@@ -25,10 +25,14 @@ header-includes: |
 # Template für Übungsaufgaben 
 
 ## Wichtige Informationen zur Bearbeitung der Aufgabe 
- - [Link zu wichtiger Ressource](https://www.uni-regensburg.de/sprache-literatur-kultur/medieninformatik/)
+- [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://elearning.uni-regensburg.de/mod/book/view.php?id=1480675)
+- [Informationen zum Im- und Export von Projekten](https://elearning.uni-regensburg.de/mod/book/view.php?id=1480675&chapterid=51551)
+- [GraphicsApp](https://elearning.uni-regensburg.de/mod/url/view.php?id=1482162)
 
 ## Starterpaket
 
-Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgabe finden Sie [hier](https://github.com/OOP-Ubungen-WS2020-21/U00-Template-fuer-Aufgaben/archive/Starterpaket.zip).
+Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgabe finden Sie [hier](https://github.com/OOP-Ubungen-WS2020-21/U09-GraphicsApp/archive/Starterpaket.zip).
 
-## Text
+## SpeedDialApp
+
+
