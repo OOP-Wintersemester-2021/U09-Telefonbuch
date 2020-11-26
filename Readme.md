@@ -45,12 +45,10 @@ Legen Sie demnach entsprechende **packages** und **classes** an.
 Erweitern Sie die gegebene Klasse `SpeedDialApp` im **SpeedDial-Package** und Ihre neu angelegten Klassen, um die `SpeedDialApp` zu implementieren.
 
 Die SpeedDialApp soll folgende Funktionalitäten haben:
+
 * Einlesen und Verarbeitung der Datei `contacts.csv` im Ordner `data`, um Telefonbucheinträge zu erstellen
   * Jeder Kontakt ist in einer Zeile gespeichert, bestehend aus **Name**, **AreaCode**, **Number** und der **Pfad zur Bilddatei**, die den Kontakt darstellt (Bilder sind im Ordner `data/assets` abgelegt)
   * Achten Sie auf die Formatierung und ignorieren Sie die erste Zeile (Header)
-  
-  `Vorname Nachname,12345,0987654321,mensch.jpg`
-  
   * Das OOP-Team ist bereits in `contacts.csv` eingetragen
   * Neue Kontakte können hinzugefügt werden, in dem entsprechend eine neue Zeile zur `contacts.csv` hinzugefügt wird
   * Verwenden Sie die Klasse `java.util.Scanner` und deren Methode `readLine()`, um Dateien zeilenweise auszulesen
