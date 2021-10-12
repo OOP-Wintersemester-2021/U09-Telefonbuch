@@ -4,7 +4,7 @@ In diesem Übungsblatt implementieren Sie eine kleine App auf Basis der *Graphic
 
 | Telefonbuch | 
 |:------:| 
-| ![SpeedDialApp](./docs/SpeedDialApp1.png) |  
+|![SpeedDialApp](./docs/SpeedDialApp1.png)|  
 
 Überlegen Sie sich, in welche Komponenten Sie diese Applikation aufteilen wollen (z.B. Telefonbuch, Eintrag).
 Trennen Sie die Daten von Einträgen von den Komponenten, mit denen diese in der App dargestellt werden sollen.
