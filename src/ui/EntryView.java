@@ -28,18 +28,18 @@ public class EntryView implements Config {
         image.setHeight(height);
         view.add(image);
 
-        labelXPos = image.getXPos() + image.getWidth() + PHONEBOOK_ENTRY_MARGIN + (PHONEBOOK_ENTRY_HEIGHT /5);
-        nameLabelYPos = view.getYPos() + (PHONEBOOK_ENTRY_HEIGHT /3);
+        labelXPos = image.getXPos() + image.getWidth() + PHONEBOOK_ENTRY_MARGIN + (PHONEBOOK_ENTRY_HEIGHT / 5);
+        nameLabelYPos = view.getYPos() + (PHONEBOOK_ENTRY_HEIGHT / 3);
         numberLabelYPos = (float) (view.getYPos() + (PHONEBOOK_ENTRY_HEIGHT / 1.4));
 
         Label nameLabel = new Label(labelXPos,nameLabelYPos, entry.getName());
         nameLabel.setColor(APP_RESET_COLOR);
-        nameLabel.setFontSize(PHONEBOOK_ENTRY_HEIGHT /4);
+        nameLabel.setFontSize(PHONEBOOK_ENTRY_HEIGHT / 4);
         view.add(nameLabel);
 
         Label numberLabel = new Label(labelXPos, numberLabelYPos, entry.getFullNumber());
         numberLabel.setColor(APP_RESET_COLOR);
-        numberLabel.setFontSize(PHONEBOOK_ENTRY_HEIGHT /5);
+        numberLabel.setFontSize(PHONEBOOK_ENTRY_HEIGHT / 6);
         view.add(numberLabel);
     }
 

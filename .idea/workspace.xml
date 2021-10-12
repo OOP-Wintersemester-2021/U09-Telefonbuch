@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18faea0a-61da-45b7-bfac-ae08dbfda7df" name="Default Changelist" comment="" />
+    <list default="true" id="18faea0a-61da-45b7-bfac-ae08dbfda7df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/U09-GraphicsApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/U09-GraphicsApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/GraphicsApp_v1_4_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/GraphicsApp-v1.4.5.jar" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +21,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -28,7 +39,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/assets" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/GraphicsApp-v1.4.9.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -57,58 +70,28 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="WindowStateProjectService">
-    <state x="2362" y="203" width="1034" height="846" key="#Project_Structure" timestamp="1606378142490">
-      <screen x="1920" y="0" width="1920" height="1200" />
-    </state>
-    <state x="2362" y="203" width="1034" height="846" key="#Project_Structure/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606378142490" />
-    <state x="2337" y="284" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606306193099">
-      <screen x="1920" y="0" width="1920" height="1200" />
-    </state>
-    <state x="2337" y="284" width="1086" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606306193099" />
-    <state x="2687" y="332" width="384" height="588" key="#com.intellij.ide.util.MemberChooser" timestamp="1606308613424">
-      <screen x="1920" y="0" width="1920" height="1200" />
-    </state>
-    <state x="2687" y="332" width="384" height="588" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606308613424" />
-    <state x="2612" y="374" width="534" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606310167478">
-      <screen x="1920" y="0" width="1920" height="1200" />
-    </state>
-    <state x="2612" y="374" width="534" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606310167478" />
-    <state x="2513" y="368" width="729" height="515" key="FileChooserDialogImpl" timestamp="1606378139638">
-      <screen x="1920" y="0" width="1920" height="1200" />
-    </state>
-    <state x="2513" y="368" width="729" height="515" key="FileChooserDialogImpl/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606378139638" />
-    <state width="1872" height="300" key="GridCell.Tab.0.bottom" timestamp="1606385804104">
-      <screen x="1920" y="0" width="1920" height="1200" />
-    </state>
-    <state width="1872" height="300" key="GridCell.Tab.0.bottom/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606385804104" />
-    <state width="1872" height="300" key="GridCell.Tab.0.center" timestamp="1606385804104">
-      <screen x="1920" y="0" width="1920" height="1200" />
-    </state>
-    <state width="1872" height="300" key="GridCell.Tab.0.center/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606385804103" />
-    <state width="1872" height="300" key="GridCell.Tab.0.left" timestamp="1606385804103">
-      <screen x="1920" y="0" width="1920" height="1200" />
-    </state>
-    <state width="1872" height="300" key="GridCell.Tab.0.left/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606385804103" />
-    <state width="1872" height="300" key="GridCell.Tab.0.right" timestamp="1606385804104">
-      <screen x="1920" y="0" width="1920" height="1200" />
-    </state>
-    <state width="1872" height="300" key="GridCell.Tab.0.right/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606385804104" />
-    <state width="1872" height="382" key="GridCell.Tab.1.bottom" timestamp="1606381932029">
-      <screen x="1920" y="0" width="1920" height="1200" />
-    </state>
-    <state width="1872" height="382" key="GridCell.Tab.1.bottom/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606381932029" />
-    <state width="1872" height="382" key="GridCell.Tab.1.center" timestamp="1606381932029">
-      <screen x="1920" y="0" width="1920" height="1200" />
-    </state>
-    <state width="1872" height="382" key="GridCell.Tab.1.center/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606381932029" />
-    <state width="1872" height="382" key="GridCell.Tab.1.left" timestamp="1606381932029">
-      <screen x="1920" y="0" width="1920" height="1200" />
-    </state>
-    <state width="1872" height="382" key="GridCell.Tab.1.left/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606381932029" />
-    <state width="1872" height="382" key="GridCell.Tab.1.right" timestamp="1606381932029">
-      <screen x="1920" y="0" width="1920" height="1200" />
-    </state>
-    <state width="1872" height="382" key="GridCell.Tab.1.right/1920.0.1920.1200/0.51.1920.1029@1920.0.1920.1200" timestamp="1606381932029" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1634032275683</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634032275683</updated>
+      <workItem from="1634032277391" duration="307000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
