@@ -1,4 +1,4 @@
-# U09 | Telefonbuch
+# U23 | Telefonbuch
 
 In diesem Übungsblatt implementieren Sie eine kleine App auf Basis der *GraphicsApp*, die der Schnellanruffunktion (SpeedDial) von Smartphones nachempfunden ist.
 
